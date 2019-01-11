@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alex Miklovic Part 2</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <script src="./penmachine.js"></script>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <div id="left">
+      <textarea id="datastream" type="text" placeholder="Enter Data Stream" oninput="sanitizeInput(this.value)"></textarea>
+      <button id="run">Run</button>
+      <div id="print-area">Output will print here.</div>
+    </div>
+    <div id="right">
+      <div id="canvas-wrap">
+        <canvas id="canvas" width="16300px" height="16400px"></canvas>
+      </div>
+    </div>
+  </body>
+</html>
